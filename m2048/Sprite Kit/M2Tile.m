@@ -13,7 +13,7 @@
 
 @implementation M2Tile {
   /** The value of the tile, as some text. */
-  SKLabelNode *_value;
+  SKSpriteNode *_value;
   
   /** Pending actions for the tile to execute. */
   NSMutableArray *_pendingActions;
@@ -51,11 +51,9 @@
     // Initiate pending actions queue.
     _pendingActions = [[NSMutableArray alloc] init];
     
-    // Set up value label.
-    _value = [SKLabelNode labelNodeWithFontNamed:[GSTATE boldFontName]];
+    // Set up the tile with an image.
+    _value = [SKSpriteNode spriteNodeWithTexture:[SKTexture textureWithImageNamed:@"cell_rectangle_8192"]size:CGSizeMake(66, 66)];
     _value.position = CGPointMake(GSTATE.tileSize / 2, GSTATE.tileSize / 2);
-    _value.horizontalAlignmentMode = SKLabelHorizontalAlignmentModeCenter;
-    _value.verticalAlignmentMode = SKLabelVerticalAlignmentModeCenter;
     [self addChild:_value];
     
     // For Fibonacci game, which is way harder than 2048 IMO, 40 seems to be the easiest number.
@@ -161,9 +159,52 @@
 - (void)refreshValue
 {
   long value = [GSTATE valueForLevel:self.level];
-  _value.text = [NSString stringWithFormat:@"%ld", value];
-  _value.fontColor = [GSTATE textColorForLevel:self.level];
-  _value.fontSize = [GSTATE textSizeForValue:value];
+    
+    switch (value) {
+        case 2:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_2"];
+            break;
+        case 4:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_4"];
+            break;
+        case 8:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_8"];
+            break;
+        case 16:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_16"];
+            break;
+        case 32:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_32"];
+            break;
+        case 64:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_64"];
+            break;
+        case 128:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_128"];
+            break;
+        case 256:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_256"];
+            break;
+        case 512:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_512"];
+            break;
+        case 1024:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_1024"];
+            break;
+        case 2048:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_2048"];
+            break;
+        case 4096:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_4096"];
+            break;
+        case 8192:
+            _value.texture = [SKTexture textureWithImageNamed:@"cell_rectangle_8192"];
+            break;
+            
+        default:
+            break;
+    }
+    _value.position = CGPointMake(GSTATE.tileSize / 2, GSTATE.tileSize / 2);
   
   self.fillColor = [GSTATE colorForLevel:self.level];
 }
