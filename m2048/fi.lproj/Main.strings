@@ -1,0 +1,54 @@
+
+/* Class = "IBUILabel"; text = "Tämä peli perustuu suositun 2048-pelin iOS-versioon, jonka on tehny Danqing Liu (http://github.com/ik/2048). \n\nSuuren suosionsa ansiosta Partiopolku saapui myös iOS-laitteille.\n\nTämä peli on avointa lähdekoodia, joka on katseltavissa/ladattavissa osoitteesta http://github.com/jannesep/Partiopolku-ios\n\nTehnyt junassa rakkaudella Janne Seppänen"; ObjectID = "2mP-lF-7EF"; */
+"2mP-lF-7EF.text" = "Tämä peli perustuu suositun 2048-pelin iOS-versioon, jonka on tehny Danqing Liu (http://github.com/ik/2048). \n\nSuuren suosionsa ansiosta Partiopolku saapui myös iOS-laitteille.\n\nTämä peli on avointa lähdekoodia, joka on katseltavissa/ladattavissa osoitteesta http://github.com/jannesep/Partiopolku-ios\n\nTehnyt junassa rakkaudella Janne Seppänen";
+
+/* Class = "IBUINavigationItem"; title = "Asetukset"; ObjectID = "4Ef-xt-w6t"; */
+"4Ef-xt-w6t.title" = "Asetukset";
+
+/* Class = "IBUILabel"; text = "HUIPUT"; ObjectID = "4Xw-5I-xFm"; */
+"4Xw-5I-xFm.text" = "HUIPUT";
+
+/* Class = "IBUIButton"; normalTitle = "Asetukset"; ObjectID = "8r1-lH-tEE"; */
+"8r1-lH-tEE.normalTitle" = "Asetukset";
+
+/* Class = "IBUILabel"; text = "Partiopolku"; ObjectID = "C71-5n-Bsx"; */
+"C71-5n-Bsx.text" = "Partiopolku";
+
+/* Class = "IBUILabel"; text = "Voitin partion!"; ObjectID = "Pqq-SU-fYe"; */
+"Pqq-SU-fYe.text" = "Voitin partion!";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "S6W-Te-Tgg"; */
+"S6W-Te-Tgg.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Uusi peli"; ObjectID = "WSt-5b-bvD"; */
+"WSt-5b-bvD.normalTitle" = "Uusi peli";
+
+/* Class = "IBUILabel"; text = "200000"; ObjectID = "dqu-Jy-DNX"; */
+"dqu-Jy-DNX.text" = "200000";
+
+/* Class = "IBUIButton"; normalTitle = "HC-Tila"; ObjectID = "gYR-fV-lVv"; */
+"gYR-fV-lVv.normalTitle" = "HC-Tila";
+
+/* Class = "IBUIBarButtonItem"; title = "Valmis"; ObjectID = "iZP-nW-4x6"; */
+"iZP-nW-4x6.title" = "Valmis";
+
+/* Class = "IBUILabel"; text = "Detail"; ObjectID = "jRb-aB-hlC"; */
+"jRb-aB-hlC.text" = "Detail";
+
+/* Class = "IBUILabel"; text = "PISTEET"; ObjectID = "qRp-Wy-Hem"; */
+"qRp-Wy-Hem.text" = "PISTEET";
+
+/* Class = "IBUIButton"; normalTitle = "Uudestaan sudariksi"; ObjectID = "qXD-8y-R8y"; */
+"qXD-8y-R8y.normalTitle" = "Uudestaan sudariksi";
+
+/* Class = "IBUILabel"; text = "Saavutatko suuren ansioristin?\n"; ObjectID = "r98-Zq-3Of"; */
+"r98-Zq-3Of.text" = "Saavutatko suuren ansioristin?\n";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "uGG-dZ-dj5"; */
+"uGG-dZ-dj5.text" = "Title";
+
+/* Class = "IBUILabel"; text = "Title"; ObjectID = "v3Q-SA-Gjr"; */
+"v3Q-SA-Gjr.text" = "Title";
+
+/* Class = "IBUINavigationItem"; title = "Tietoa pelistä"; ObjectID = "zF5-Z2-jjH"; */
+"zF5-Z2-jjH.title" = "Tietoa pelistä";

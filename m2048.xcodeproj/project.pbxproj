@@ -92,6 +92,9 @@
 		24C4517218E140AE0001FCFD /* M2SettingsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2SettingsDetailViewController.m; sourceTree = "<group>"; };
 		24C4517F18E265390001FCFD /* M2Overlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = M2Overlay.h; sourceTree = "<group>"; };
 		24C4518018E265390001FCFD /* M2Overlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = M2Overlay.m; sourceTree = "<group>"; };
+		FB1C065718FB033400D731CA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Main.strings; sourceTree = "<group>"; };
+		FB1C065818FB033400D731CA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FB1C065918FB033400D731CA /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -329,6 +332,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fi,
 			);
 			mainGroup = 2443DC4918D662CA00C920C1;
 			productRefGroup = 2443DC5318D662CA00C920C1 /* Products */;
@@ -408,6 +412,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2443DC6118D662CA00C920C1 /* en */,
+				FB1C065818FB033400D731CA /* fi */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -416,6 +421,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2443DC6A18D662CA00C920C1 /* Base */,
+				FB1C065718FB033400D731CA /* fi */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -424,6 +430,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				2443DC8518D662CA00C920C1 /* en */,
+				FB1C065918FB033400D731CA /* fi */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -512,6 +519,7 @@
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -527,6 +535,7 @@
 				INFOPLIST_FILE = "m2048/m2048-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

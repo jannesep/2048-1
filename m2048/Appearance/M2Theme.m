@@ -19,39 +19,7 @@
 
 + (UIColor *)colorForLevel:(NSInteger)level
 {
-  switch (level) {
-    case 1:
-      return RGB(238, 228, 218);
-    case 2:
-      return RGB(237, 224, 200);
-    case 3:
-      return RGB(242, 177, 121);
-    case 4:
-      return RGB(245, 149, 99);
-    case 5:
-      return RGB(246, 124, 95);
-    case 6:
-      return RGB(246, 94, 59);
-    case 7:
-      return RGB(237, 207, 114);
-    case 8:
-      return RGB(237, 204, 97);
-    case 9:
-      return RGB(237, 200, 80);
-    case 10:
-      return RGB(237, 197, 63);
-    case 11:
-      return RGB(237, 194, 46);
-    case 12:
-      return RGB(173, 183, 119);
-    case 13:
-      return RGB(170, 183, 102);
-    case 14:
-      return RGB(164, 183, 79);
-    case 15:
-    default:
-      return RGB(161, 183, 63);
-  }
+    return RGB(204, 192, 179);
 }
 
 
@@ -112,39 +80,7 @@
 
 + (UIColor *)colorForLevel:(NSInteger)level
 {
-  switch (level) {
-    case 1:
-      return RGB(254, 223, 180);
-    case 2:
-      return RGB(254, 183, 143);
-    case 3:
-      return RGB(253, 187, 45);
-    case 4:
-      return RGB(253, 157, 40);
-    case 5:
-      return RGB(246, 124, 95);
-    case 6:
-      return RGB(217, 70, 119);
-    case 7:
-      return RGB(210, 65, 97);
-    case 8:
-      return RGB(207, 50, 90);
-    case 9:
-      return RGB(205, 35, 84);
-    case 10:
-      return RGB(200, 30, 78);
-    case 11:
-      return RGB(190, 20, 70);
-    case 12:
-      return RGB(254, 233, 78);
-    case 13:
-      return RGB(249, 191, 64);
-    case 14:
-      return RGB(247, 167, 56);
-    case 15:
-    default:
-      return RGB(244, 138, 48);
-  }
+    return RGB(240, 240, 240);
 }
 
 
